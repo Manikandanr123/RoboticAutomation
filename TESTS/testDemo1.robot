@@ -8,6 +8,7 @@ Test Teardown    Close Browser
 
 *** Variables ***
 ${Error_Message_Login}    xpath://div[@class='message-error validation-summary-errors']
+${BROWSER}    chrome
 
 
 *** Test Cases ***
@@ -20,7 +21,7 @@ validate Unsuccessful login in nopcommerce
 
 *** Keywords ***
 open the nopcommerce website with login url
-    Open Browser    https://demo.nopcommerce.com/login?returnUrl=%2F    chrome
+    Open Browser    https://demo.nopcommerce.com/login?returnUrl=%2F    ${BROWSER}
     Maximize Browser Window
 
 fill the login form
