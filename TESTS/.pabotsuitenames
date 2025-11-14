@@ -1,0 +1,8 @@
+datasources:5de09765dbd8ad18d772ee9778faa5e732fbb83a
+commandlineoptions:c3c42b4ed4ba208026da7d5907dac14d086a021e
+suitesfrom:no-suites-from-option
+file:53d436e95f9d13d6dbc14079ccc8758cf76701b9
+--suite TESTS.Testingdemo2 Customlibrary
+--suite TESTS.testDemo1
+--suite TESTS.testDemo3 parametrization
+--suite TESTS.testDemo3 parametrization fromexcel

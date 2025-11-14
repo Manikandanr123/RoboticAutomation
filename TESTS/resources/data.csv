@@ -1,0 +1,4 @@
+*** Test Cases ***,${user_name},${password}
+Invalid username,standard_user1,secret_sauce
+Invalid password,standard_user,secriii_sas
+special characters,st@!!cls,secret_sau

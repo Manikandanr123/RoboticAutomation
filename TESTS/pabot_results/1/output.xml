@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.3.2 (Python 3.11.8 on win32)" generated="2025-11-13T15:57:48.967431" rpa="false" schemaversion="5">
+<suite id="s1" name="TESTS" source="C:\Users\ramasman\PycharmProjects\ROBOTICAutomation\TESTS">
+<suite id="s1-s1" name="testDemo1" source="C:\Users\ramasman\PycharmProjects\ROBOTICAutomation\TESTS\testDemo1.robot">
+<test id="s1-s1-t1" name="validate Unsuccessful login" line="14">
+<kw name="open the nopcommerce website with login url">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2025-11-13T15:57:49.819744" level="INFO">Opening browser 'chrome' to base url 'https://demo.nopcommerce.com/login?returnUrl=%2F'.</msg>
+<arg>https://demo.nopcommerce.com/login?returnUrl=%2F</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2025-11-13T15:57:49.819744" elapsed="9.442526"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2025-11-13T15:57:59.262270" elapsed="0.259412"/>
+</kw>
+<status status="PASS" start="2025-11-13T15:57:49.819744" elapsed="9.701938"/>
+</kw>
+<kw name="fill the login form">
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2025-11-13T15:57:59.523683" level="INFO">Typing text 'mani1987sat2@gmail.com' into text field 'id:Email'.</msg>
+<arg>id:Email</arg>
+<arg>mani1987sat2@gmail.com</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2025-11-13T15:57:59.522677" elapsed="0.223217"/>
+</kw>
+<kw name="Input Password" owner="SeleniumLibrary">
+<msg time="2025-11-13T15:57:59.746898" level="INFO">Typing password into text field 'id:Password'.</msg>
+<msg time="2025-11-13T15:57:59.820835" level="INFO">Temporally setting log level to: NONE</msg>
+<arg>id:Password</arg>
+<arg>@234Secrat</arg>
+<doc>Types the given password into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2025-11-13T15:57:59.745894" elapsed="0.196365"/>
+</kw>
+<kw name="Click Button" owner="SeleniumLibrary">
+<msg time="2025-11-13T15:57:59.943265" level="INFO">Clicking button 'xpath://button[normalize-space()='Log in']'.</msg>
+<arg>xpath://button[normalize-space()='Log in']</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="PASS" start="2025-11-13T15:57:59.943265" elapsed="0.467590"/>
+</kw>
+<status status="PASS" start="2025-11-13T15:57:59.521682" elapsed="0.889173"/>
+</kw>
+<kw name="wait until it checks and display error message">
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>${Error_Message_Login}</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" start="2025-11-13T15:58:00.411850" elapsed="0.139362"/>
+</kw>
+<status status="PASS" start="2025-11-13T15:58:00.410855" elapsed="0.140357"/>
+</kw>
+<kw name="verify error message is correct">
+<kw name="Element Should Contain" owner="SeleniumLibrary">
+<msg time="2025-11-13T15:58:00.580818" level="INFO">Element 'xpath://div[@class='message-error validation-summary-errors']' contains text 'Login was unsuccessful. Please correct the errors and try again.'.</msg>
+<arg>${Error_Message_Login}</arg>
+<arg>Login was unsuccessful. Please correct the errors and try again.</arg>
+<doc>Verifies that element ``locator`` contains text ``expected``.</doc>
+<status status="PASS" start="2025-11-13T15:58:00.552760" elapsed="0.029060"/>
+</kw>
+<status status="PASS" start="2025-11-13T15:58:00.551212" elapsed="0.030608"/>
+</kw>
+<kw name="Close Browser" owner="SeleniumLibrary" type="TEARDOWN">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2025-11-13T15:58:00.581820" elapsed="4.376291"/>
+</kw>
+<status status="PASS" start="2025-11-13T15:57:49.819744" elapsed="15.138367"/>
+</test>
+<doc>TO validate the login form</doc>
+<status status="PASS" start="2025-11-13T15:57:49.031825" elapsed="15.927308"/>
+</suite>
+<status status="PASS" start="2025-11-13T15:57:49.001180" elapsed="15.970518"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="TESTS" id="s1" pass="1" fail="0" skip="0">TESTS</stat>
+<stat name="testDemo1" id="s1-s1" pass="1" fail="0" skip="0">TESTS.testDemo1</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

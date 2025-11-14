@@ -1,0 +1,18 @@
+==============================================================================
+TESTS                                                                         
+==============================================================================
+TESTS.testDemo3 parametrization fromexcel :: TO validate the login form wit...
+==============================================================================
+Invalid username                                                      | PASS |
+------------------------------------------------------------------------------
+Invalid password                                                      | PASS |
+------------------------------------------------------------------------------
+special characters                                                    | PASS |
+------------------------------------------------------------------------------
+TESTS.testDemo3 parametrization fromexcel :: TO validate the login... | PASS |
+3 tests, 3 passed, 0 failed
+==============================================================================
+TESTS                                                                 | PASS |
+3 tests, 3 passed, 0 failed
+==============================================================================
+Output:  C:\Users\ramasman\PycharmProjects\ROBOTICAutomation\TESTS\pabot_results\3\output.xml

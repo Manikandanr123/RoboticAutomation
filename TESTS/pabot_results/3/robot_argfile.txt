@@ -1,0 +1,17 @@
+--suite TESTS.testDemo3 parametrization fromexcel
+--exclude EXCLUDE_ME
+--variable CALLER_ID:a7474975b9fa4b269508048d00adf96d
+--variable PABOTLIBURI:127.0.0.1:8270
+--variable PABOTEXECUTIONPOOLID:2
+--variable PABOTISLASTEXECUTIONINPOOL:1
+--variable PABOTNUMBEROFPROCESSES:8
+--variable PABOTQUEUEINDEX:3
+--variable PABOTLASTLEVEL:
+--listener RobotStackTracer
+--log NONE
+--report NONE
+--xunit NONE
+--outputdir .\pabot_results\3
+--consolecolors off
+--consolemarkers off
+.

@@ -1,0 +1,14 @@
+==============================================================================
+TESTS                                                                         
+==============================================================================
+TESTS.Testingdemo2 Customlibrary :: TO validate the login form                
+==============================================================================
+validate cards display in the shopping Page                           | PASS |
+------------------------------------------------------------------------------
+TESTS.Testingdemo2 Customlibrary :: TO validate the login form        | PASS |
+1 test, 1 passed, 0 failed
+==============================================================================
+TESTS                                                                 | PASS |
+1 test, 1 passed, 0 failed
+==============================================================================
+Output:  C:\Users\ramasman\PycharmProjects\ROBOTICAutomation\TESTS\pabot_results\0\output.xml
